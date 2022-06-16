@@ -35,11 +35,11 @@ function side() {
     return `
     <div>
     <img src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg" alt="">
-    <a href="latest.html"><p>Latest News</p></a>
+    <a href="../dna news/latest.html"><p>Latest News</p></a>
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg" alt="">
-        <a href="#"><p>Photos</p></a>
+        <a href="../dna news/photo.html"><p>Photos</p></a>
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg" alt="">
@@ -59,11 +59,11 @@ function side() {
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg" alt="">
-        <a href="#"><p>Sports</p></a>
+        <a href="../sports/templete.html"><p>Sports</p></a>
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg" alt="">
-        <a href="#"><p>Viral News</p></a>
+        <a href="../Viral News/templete.html"><p>Viral News</p></a>
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg" alt="">

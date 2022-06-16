@@ -2,11 +2,11 @@ function side() {
     return `
     <div>
     <img src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg" alt="">
-    <a href="latest.html"><p>Latest News</p></a>
+    <a href="../dna news/latest.html"><p>Latest News</p></a>
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg" alt="">
-        <a href="photo.html"><p>Photos</p></a>
+        <a href="../dna news/photo.html"><p>Photos</p></a>
     </div>
     <div>
         <img src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg" alt="">
