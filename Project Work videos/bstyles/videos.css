@@ -1,0 +1,25 @@
+#bmain_container{
+    display: flex;
+    /* border: 2px solid black; */
+}
+#bside_bar{
+    /* border: 1px solid black; */
+    width: 30%;
+}
+#badv{
+    /* border: 1px solid black; */
+    /* width: 30%; */
+    width: 23%;
+    margin: auto;
+    margin-top:5%;
+}
+#videoDiv{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-top: 70px;
+}
+#bhead0{
+    width: 100%;
+    border-bottom: 2px solid rgb(203, 203, 203);
+    /* margin-top: -15px; */
+}
