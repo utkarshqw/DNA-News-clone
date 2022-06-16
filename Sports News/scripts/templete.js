@@ -1,13 +1,13 @@
-import navbar from "/components/navbar.js";
+import navbar from "../components/navbar.js";
 let nav = document.getElementById("navbar");
-import top from "/components/topnews.js";
+import top from "../components/topnews.js";
 let to = document.getElementById("top_news");
 to.innerHTML = top();
-import side from "/components/sidebar.js";
+import side from "../components/sidebar.js";
 let s = document.getElementById("side");
 s.innerHTML = side();
 nav.innerHTML = navbar();
-import footer from "/components/footer.js";
+import footer from "../components/footer.js";
 let fo = document.getElementById("footer");
 fo.innerHTML = footer();
 //slideshow

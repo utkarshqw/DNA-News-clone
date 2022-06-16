@@ -7,8 +7,8 @@ import side from "../components/sidebar.js";
 let s = document.getElementById("side");
 s.innerHTML = side();
 import footer from "../components/footer.js";
-let fo = document.getElementById("footer");
-fo.innerHTML = footer();
+let f = document.getElementById("footer");
+f.innerHTML = footer();
 let para = [
   "India’s wholesale inflation surges to record high of 15.88 % in May 2022",
   "Appointment of India’s new CDS will be made soon: Rajnath Singh",
