@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/sidebar.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+         #side>div:nth-child(2){
+            background-color: #ffde2f;
+        }
+       #news>a,a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 12px;
+       }
+       .fa-solid{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+       }
+       h2{
+        font-family: 'Roboto Slab',sans-serif;
+        font-weight: 200;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       }
+       hr{
+        background-color: #ffde2f;
+        margin-bottom: 10px;
+        color: #ffde2f;
+        height: 2px;
+        border: 0;
+       }
+
+         /* navbar and sidebar fixed */
+         #navbar{
+        width: 100%;
+        position: fixed;
+        background-color: #ffde2f;
+        margin-top: -85px;
+       }
+       #top_news{
+        margin-top: 85px;
+       }
+    .white{
+       width: 10%;
+       top: 90px;
+       position: fixed;
+    }
+    .center{
+        margin-left: 250px;
+    }
+    .side{
+        width: 70%;
+    }
+    /* navbar and sidebar fixed end */
+    .ggg{
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
+        background-color: black;
+        position: sticky;
+    }
+</style>
+<body>
+    <div id="navbar"></div>
+    <div id="top_news"></div>
+    <div id="phone">
+        <div id="box">
+            <div id="side"></div>
+        <div id="news">
+            <a href="index.html"><p>Home<i class="fa-solid fa-angles-right"></i><a href="photo.html">Photo</a></p></a>
+            <h2>Latest News</h2>
+            <hr>
+        </div>
+      </div>
+    </div>
+    <div class="ggg"></div>
+</body>
+</html>
+<script src="/scripts/photo.js" type="module"></script>
+
+<script>
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('#side').addClass('white');
+            $('#news').addClass('center');
+            $('#side>div').addClass('side');
+        }
+        else{
+            $('#side').removeClass('white')
+            $('#news').removeClass('center')
+            $('#side>div').removeClass('side')
+        }
+    })
+</script>

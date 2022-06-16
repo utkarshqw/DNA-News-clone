@@ -1,0 +1,53 @@
+#box{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#side{
+    width: 30%;
+}
+#side>div{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+#side>div:hover{
+    background-color: #ffde2f;
+}
+#side>div>a{
+    text-decoration: none;
+    color: black;
+}
+#side>div>img{
+    margin-left: 5px;
+}
+#side>div>a>p{
+    margin-left: 15px;
+    font-family: 'Roboto Slab',sans-serif;
+    font-size: 14px;
+}
+
+#news{
+    width: 67%;
+}
+#news>div{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+}
+#news>div>img{
+    width: 95%;
+    margin-top: 10px;
+}
+#news>div>p,p1{
+    font-family: 'Roboto Slab',sans-serif;
+    text-align: left;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
