@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./templete.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Document</title>
+    <style>
+      #navbar {
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid black; */
+      }
+      #top_news {
+        width: 98%;
+        height: 60px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      #main {
+        width: 98%;
+        height: auto;
+        /* border: 1px solid black; */
+        margin: auto;
+        display: flex;
+        margin-top: 50px;
+      }
+      #side {
+        height: auto;
+        width: 30%;
+        /* border: 1px solid black; */
+      }
+      #newsdata {
+        height: auto;
+        width: 55%;
+        /* border: 1px solid black; */
+        /* display: flex; */
+      }
+      #blank {
+        height: auto;
+        width: 20%;
+        /* border: 1px solid black; */
+      }
+      img {
+        width: 98%;
+        height: 500px;
+        padding: 5px;
+      }
+      #newsdata h1 {
+        font-size: 20px;
+        font-family: "Roboto Slab", serif;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+      }
+      #newsdata h3 {
+        font-weight: 400;
+        font-family: "Roboto Slab", serif;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        color: #212529;
+        margin-bottom: 20px;
+      }
+      #newsdata p {
+        color: #000;
+        line-height: 25px;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+      }
+      .first:hover {
+        color: rgb(59, 59, 119);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="top_news">
+      <div>TOPNEWS</div>
+      <div></div>
+    </div>
+    <div id="main">
+      <div id="side">SIDEBAR</div>
+      <div id="newsdata">
+        <p class="first">Home A>> Sports</p>
+      </div>
+      <div id="blank"></div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script type="module" src="./showdata.js"></script>
