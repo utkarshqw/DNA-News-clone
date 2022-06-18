@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/sidebar.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>viral_news</title>
+</head>
+<style>
+       #news>img{
+        width: 100%;
+       }
+         #side>div:nth-child(8){
+            background-color: #ffde2f;
+        }
+       #news>a,a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto Slab',sans-serif;
+        font-size: 12px;
+       }
+       .fa-solid{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+       }
+       h2{
+        font-family: 'Roboto Slab',sans-serif;
+        font-weight: 200;
+        margin-top: 5px;
+        margin-bottom: 5px;
+       }
+       hr{
+        background-color: #ffde2f;
+        margin-bottom: 10px;
+        color: #ffde2f;
+        height: 2px;
+        border: 0;
+       }
+
+         /* navbar and sidebar fixed */
+         #navbar{
+        width: 100%;
+        position: fixed;
+        background-color: #ffde2f;
+        margin-top: -85px;
+       }
+       #top_news{
+        margin-top: 85px;
+       }
+    .white{
+       width: 10%;
+       top: 90px;
+       position: fixed;
+    }
+    .center{
+        margin-left: 230px;
+    }
+    .side{
+        width: 70%;
+    }
+    #ufooter{
+        position:sticky;
+    }
+</style>
+<body>
+    <div id="navbar"></div>
+    <div id="top_news"></div>
+    <div id="phone">
+        <div id="box">
+            <div id="side"></div>
+        <div id="news">
+            <a href="index.html"><p>Home<i class="fa-solid fa-angles-right"></i><a href="viral.html">Viral News</a></p></a>
+            <h2>Viral News</h2>
+            <hr>
+        </div>
+      </div>
+      <div id="advert">
+        <img src="https://tpc.googlesyndication.com/simgad/18424345731736832117" alt="">
+        <img src="https://zem.outbrainimg.com/p/srv/sha/bf/be/39/9a7b275e31db394c2fd6611433eb96a8a1.jpg?w=298&h=110&fit=crop&crop=center&fm=jpg" alt="">
+        <img src="https://zem.outbrainimg.com/p/srv/sha/ff/35/62/8a71dc8d4b5246840da30b1f02bd0d2069.jpg?w=298&h=110&fit=crop&crop=center&fm=jpg" alt="">
+        <img src="https://tpc.googlesyndication.com/simgad/15811410282780484300?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlyNtUYwDgLwtIIYDKVBS-MY9_y1w" alt="">
+        <img src="https://img.turncdn.com/img-data/2022_06/db1f5a367181411da027f7afef918bb2.png" alt="">
+      </div>
+    </div>
+    <div id="ufooter"></div>
+
+</body>
+</html>
+<script src="/scripts/viral_new.js" type="module"></script>
+
+<script>
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('#side').addClass('white');
+            $('#news').addClass('center');
+            $('#side>div').addClass('side');
+        }
+        else{
+            $('#side').removeClass('white')
+            $('#news').removeClass('center')
+            $('#side>div').removeClass('side')
+        }
+    })
+</script>
