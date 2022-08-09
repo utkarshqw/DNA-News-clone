@@ -25,6 +25,7 @@
 - CSS
 - JavaScript
 
-## [Deployed Link] (https://luxury-lollipop-1d0feb.netlify.app)
+
+- Deployed Link (https://luxury-lollipop-1d0feb.netlify.app)
 
 
